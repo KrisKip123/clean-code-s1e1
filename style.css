@@ -12,11 +12,13 @@
     text-align: right;
 }
 
-.info-wrapper .info-img {
+.info-wrapper
+.info-img {
     width: 100%;
 }
 
-.info-wrapper .info {
+.info-wrapper
+.info {
     font-family: fantasy, cursive;
 }
 
@@ -49,7 +51,8 @@
     padding: 0px;
 }
 
-.todo-item, h3 {
+.todo-item, 
+h3 {
     list-style: none;
 }
 
@@ -150,21 +153,28 @@ h3,
 }
 
 /* Completed */
-#todo-completed-tasks-wrapper .todo-item-text {
+#todo-completed-tasks-wrapper 
+.todo-item-text {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-.todo-list .todo-item .todo-item-write-text {
+.todo-list 
+.todo-item 
+.todo-item-write-text {
     display: none;
 }
 
-.todo-list .edit-mode .todo-item-write-text {
+.todo-list 
+.edit-mode 
+.todo-item-write-text {
     display: inline-block;
     width: 224px;
 }
 
-.todo-list .edit-mode .todo-item-text {
+.todo-list 
+.edit-mode 
+.todo-item-text {
     display: none;
 }
