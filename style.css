@@ -45,16 +45,16 @@
 }
 
 .todo-list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
 .todo-item, h3 {
-    list-style:none;
+    list-style: none;
 }
 
 .element-outline-none {
-    outline:none;
+    outline: none;
 }
 
 .todo-item-button {
@@ -157,14 +157,14 @@ h3,
 
 /* Edit Task */
 .todo-list .todo-item .todo-item-write-text {
-    display:none
+    display: none
 }
 
 .todo-list .edit-mode .todo-item-write-text {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .todo-list .edit-mode .todo-item-text {
-    display:none;
+    display: none;
 }
